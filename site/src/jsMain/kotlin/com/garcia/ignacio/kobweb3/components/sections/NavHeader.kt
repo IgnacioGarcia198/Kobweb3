@@ -1,4 +1,4 @@
-package com.garcia.ignacio.kobweb.components.sections
+package com.garcia.ignacio.kobweb3.components.sections
 
 import androidx.compose.runtime.*
 import com.varabyte.kobweb.browser.dom.ElementTarget
@@ -32,8 +32,8 @@ import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import org.jetbrains.compose.web.css.*
-import com.garcia.ignacio.kobweb.components.widgets.IconButton
-import com.garcia.ignacio.kobweb.toSitePalette
+import com.garcia.ignacio.kobweb3.components.widgets.IconButton
+import com.garcia.ignacio.kobweb3.toSitePalette
 
 val NavHeaderStyle by ComponentStyle.base {
     Modifier.fillMaxWidth().padding(1.cssRem)
@@ -102,7 +102,7 @@ fun NavHeader() {
     Row(NavHeaderStyle.toModifier(), verticalAlignment = Alignment.CenterVertically) {
         Link("https://kobweb.varabyte.com") {
             // Block display overrides inline display of the <img> tag, so it calculates centering better
-            Image("/kobweb-logo.png", "Kobweb Logo", Modifier.height(2.cssRem).display(DisplayStyle.Block))
+            Image("/kobweb3-logo.png", "Kobweb Logo", Modifier.height(2.cssRem).display(DisplayStyle.Block))
         }
 
         Spacer()

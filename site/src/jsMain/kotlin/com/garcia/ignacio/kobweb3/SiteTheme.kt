@@ -1,4 +1,4 @@
-package com.garcia.ignacio.kobweb
+package com.garcia.ignacio.kobweb3
 
 import com.varabyte.kobweb.compose.ui.graphics.Color
 import com.varabyte.kobweb.compose.ui.graphics.Colors

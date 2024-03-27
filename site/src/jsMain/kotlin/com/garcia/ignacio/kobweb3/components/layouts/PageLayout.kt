@@ -1,4 +1,4 @@
-package com.garcia.ignacio.kobweb.components.layouts
+package com.garcia.ignacio.kobweb3.components.layouts
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -18,9 +18,9 @@ import kotlinx.browser.document
 import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.fr
 import org.jetbrains.compose.web.css.percent
-import com.garcia.ignacio.kobweb.components.sections.Footer
-import com.garcia.ignacio.kobweb.components.sections.NavHeader
-import com.garcia.ignacio.kobweb.toSitePalette
+import com.garcia.ignacio.kobweb3.components.sections.Footer
+import com.garcia.ignacio.kobweb3.components.sections.NavHeader
+import com.garcia.ignacio.kobweb3.toSitePalette
 
 val PageContentStyle by ComponentStyle {
     base { Modifier.fillMaxSize().padding(leftRight = 2.cssRem, top = 4.cssRem) }

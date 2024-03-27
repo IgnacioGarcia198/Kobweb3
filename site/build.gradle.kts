@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.kobwebx.markdown)
 }
 
-group = "com.garcia.ignacio.kobweb"
+group = "com.garcia.ignacio.kobweb3"
 version = "1.0-SNAPSHOT"
 
 kobweb {
@@ -26,7 +26,7 @@ kobweb {
 kotlin {
     // This example is frontend only. However, for a fullstack app, you can uncomment the includeServer parameter
     // and the `jvmMain` source set below.
-    configAsKobwebApplication("kobweb" /*, includeServer = true*/)
+    configAsKobwebApplication("kobweb3" /*, includeServer = true*/)
 
     sourceSets {
         commonMain.dependencies {
@@ -45,7 +45,7 @@ kotlin {
 
         // Uncomment the following if you pass `includeServer = true` into the `configAsKobwebApplication` call.
 //        jvmMain.dependencies {
-//            compileOnly(libs.kobweb.api) // Provided by Kobweb backend at runtime
+//            compileOnly(libs.kobweb3.api) // Provided by Kobweb backend at runtime
 //        }
     }
 }

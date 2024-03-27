@@ -1,4 +1,4 @@
-package com.garcia.ignacio.kobweb
+package com.garcia.ignacio.kobweb3
 
 import com.varabyte.kobweb.compose.css.TextAlign
 import com.varabyte.kobweb.compose.ui.Modifier

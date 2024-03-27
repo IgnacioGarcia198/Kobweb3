@@ -1,0 +1,4 @@
+[submodule "blockchain/framework"]
+	path = blockchain/framework
+	url = git@github.com-personal:IgnacioGarcia198/hardhat-boilerplate.git
+	branch = noFrontend

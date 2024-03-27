@@ -2,9 +2,35 @@ This is a [Kobweb](https://github.com/varabyte/kobweb) project bootstrapped with
 
 ## Getting Started
 
-First, run the development server by typing the following command in a terminal under the `site` folder:
+First of all, go to `blockchain/framework` submodule and start:
+```sh
+npm install
+```
 
-```bash
+Once installed, let's run Hardhat's testing network:
+
+```sh
+npx hardhat node
+```
+
+Then, on a new terminal deploy your contract:
+
+```sh
+npx hardhat deploy --network localhost --contract TestContract
+```
+
+Fund your account:
+```sh
+npx hardhat --network localhost faucet <your wallet address>
+```
+
+Go to the root folder of the repo and install npm packages:
+```sh
+npm install
+```
+
+Finally, go to `site` folder and run the development server:
+```sh
 $ cd site
 $ kobweb run
 ```

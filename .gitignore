@@ -25,3 +25,7 @@ kotlin-js-store
 # Gradle ignores
 .gradle
 
+# Generated files
+**/Address.kt
+**/Abi.kt
+
